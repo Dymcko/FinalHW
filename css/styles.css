@@ -1,0 +1,177 @@
+#title {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  flex-wrap: wrap;
+}
+
+.nav-link.disabled {
+  color: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+.navbar-toggler {
+  background-color: #fff;
+  
+}
+.btn { 
+ background-color: rgb(157, 47, 47);
+ border: solid;
+
+}
+.iphoneimg {
+  position: relative;
+  left: 190px;
+}
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+#pricing {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.rounded-3 {
+  text-align: center;
+}
+.w-100 {
+  background-color: brown;
+}
+#features {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px; 
+  margin-top: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+img, svg {
+  background-color: #000;
+}
+#feedbacks {
+  background-color: rgb(231, 224, 224);
+}
+.imgnote {
+  background-color: rgb(231, 224, 224);
+  text-align: center;
+  flex-basis: 300px;
+}
+.asus {
+  background-color: rgb(231, 224, 224);
+  width: 200px;
+  position: relative;
+  left: 40%;
+}
+#partners {
+  background-color: rgb(231, 224, 224);
+  text-align: center;
+  display: flex;
+}
+.fs-4 {
+  color:#fff
+}
+.buttons {
+  text-align: center;
+
+}
+.rounded {
+  background-color: rgb(231, 224, 224);
+  width: 200px;
+
+}
+.feedback {
+  text-align: center;
+  max-width: 800px;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+.feeder {
+  float: right;
+  text-align: center;
+  position: relative;
+  top: -121px;
+  right: 350px;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar>.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  #features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 20px; 
+    margin-top: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  }
+  #title {
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    flex-wrap: wrap;
+  }
+
+  #partners {
+    background-color: rgb(231, 224, 224);
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.imgnote {
+  display: inline-flex;
+  width: 150px;
+}
+@media (max-width: 576px) {
+  #pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .buttons {
+   text-align: center;
+   grid-column-start: span 2;
+    
+  }
+ 
+}
